@@ -1,0 +1,3 @@
+le fichier icon.ico doit etre forcément en 256x256
+
+electron-packager C:\electron\electron_quick_start  --platform=win32 --arch=x64 bourbon_infocenter_built --icon=icon.ico

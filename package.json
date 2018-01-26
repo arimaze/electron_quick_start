@@ -1,10 +1,12 @@
 {
-  "name": "electron_quick_start",
+  "name": "bourbon_infocenter",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package-win": "electron-packager . --platform=win32 --arch=x64 bourbon_infocenter_built --out=../releases --icon=icon.ico"
+
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -31,4 +33,6 @@
     "respond": "^0.9.0",
     "xlsx": "^0.11.18"
   }
+
+
 }
