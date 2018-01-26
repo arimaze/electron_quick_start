@@ -5,8 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "package-win": "electron-packager . --platform=win32 --arch=x64 bourbon_infocenter_built --out=../releases --icon=icon.ico"
-
+    "package-win": "electron-packager . --prune=true --platform=win32 --arch=x64 bourbon_infocenter_built --out=../releases --icon=icon.ico"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -33,6 +32,4 @@
     "respond": "^0.9.0",
     "xlsx": "^0.11.18"
   }
-
-
 }
